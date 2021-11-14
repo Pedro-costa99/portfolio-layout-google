@@ -6,10 +6,24 @@
     
 }
 
-body{
+html{
+    /* 10px a cada 1rem*/
+    font-size: 62.5%;
+    
+}
+
+html, body{
     height: 70vh;
     min-height: 390px;
     
+}
+
+
+
+.nav-link {
+    text-decoration: none !important;
+    color: #70757a !important;
+    font-size: 1.6rem;
 }
 
 main{
@@ -44,10 +58,12 @@ form{
 .container-input-search{
     justify-content: center; 
     margin-bottom: 20px;
+    
 }
 
 .input-search{
-    border-radius: 18px;
+    border-radius: 24px;
+    height: 50px;
     
 }
 
@@ -56,6 +72,7 @@ form{
     justify-content: center;
     align-items: center;
     height: 60px;
+    
     
 }
 
@@ -66,7 +83,8 @@ form{
     width: 150px;
     
     border: none;
-    /* pointer-events:none; */
+    font-size: 1.6rem;
+    
 
 }
 
@@ -74,13 +92,6 @@ form{
     transition: 0s;
 }
 
-/* .btn:hover{
-    box-shadow: none !important;
-    outline: none !important;
-    border: none !important;
-    background: none !important;
-    transition: 0.0s !important;
-} */
 
 .button-search:hover{
 
@@ -95,6 +106,7 @@ form{
     border: none;
     height: 70%;
     width: 150px;
+    font-size: 1.6rem;
     
   
 
@@ -118,6 +130,7 @@ form{
 .footer{
     background-color: #f8f8f8; 
     min-width: 320px;
+    font-size: 1.6rem;
 }
 
 .container-title-brasil{
