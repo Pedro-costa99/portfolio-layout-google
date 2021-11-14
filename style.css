@@ -18,7 +18,10 @@ html, body{
     
 }
 
-
+nav ul {
+    margin-top: 10px; 
+    margin-right: 10px;
+}
 
 .nav-link {
     text-decoration: none !important;
@@ -78,12 +81,13 @@ form{
 
 .button-search{
     margin-right: 15px;
-    background-color: #D3D3D3 !important;
+    /* background-color: #D3D3D3 !important; */
     height: 70%;
     width: 150px;
     
     border: none;
     font-size: 1.6rem;
+    border-radius: 6px;
     
 
 }
@@ -95,18 +99,19 @@ form{
 
 .button-search:hover{
 
-    border: 1px solid #70757a !important; 
+    border: 1px solid #d3d3d3 !important; 
     cursor: pointer;
     
 
 }
 
 .button-sorte{
-    background-color: #D3D3D3 !important;   
+    /* background-color: #D3D3D3 !important;    */
     border: none;
     height: 70%;
     width: 150px;
     font-size: 1.6rem;
+    border-radius: 6px;
     
   
 
@@ -114,7 +119,7 @@ form{
 
 .button-sorte:hover{
 
-    border: 1px solid #70757a !important; 
+    border: 1px solid #d3d3d3 !important; 
     outline: 0 !important;
     box-shadow:none !important;
     outline: none !important;
@@ -122,6 +127,17 @@ form{
     
   
 
+}
+
+a:hover {
+	text-decoration: underline !important;
+	color: #70757a !important;
+
+}
+
+input:hover{
+
+    box-shadow: 0 0 1em #70757a;
 }
 
 
