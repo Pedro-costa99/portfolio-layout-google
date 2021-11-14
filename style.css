@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     
+    
 }
 
 body{
     height: 70vh;
+    min-height: 390px;
     
 }
 
@@ -16,18 +18,174 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    align-content: space-between;
 }
 
-form{}
+.section-img-logo{
+    margin-bottom: 30px;
+}
+
+.section-form {
+
+    width: 80%;
+    height: 50%;
+    
+    
+}
+
+form{
+    
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    
+}
+
+.container-input-search{
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+.input-search{
+    border-radius: 18px;
+    
+}
+
+.container-button{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    
+}
+
+.button-search{
+    margin-right: 15px;
+    background-color: #D3D3D3 !important;
+    height: 70%;
+    width: 150px;
+    
+    border: none;
+    /* pointer-events:none; */
+
+}
+
+.btn{
+    transition: 0s;
+}
+
+/* .btn:hover{
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+    background: none !important;
+    transition: 0.0s !important;
+} */
+
+.button-search:hover{
+
+    border: 1px solid #70757a !important; 
+    cursor: pointer;
+    
+
+}
+
+.button-sorte{
+    background-color: #D3D3D3 !important;   
+    border: none;
+    height: 70%;
+    width: 150px;
+    
+  
+
+}
+
+.button-sorte:hover{
+
+    border: 1px solid #70757a !important; 
+    outline: 0 !important;
+    box-shadow:none !important;
+    outline: none !important;
+    cursor: pointer;
+    
+  
+
+}
 
 
 
-@media screen and (max-width: 768px) {
+
+.footer{
+    background-color: #f8f8f8; 
+    min-width: 320px;
+}
+
+.container-title-brasil{
+    display: flex; 
+    justify-content: flex-start; 
+    padding: 10px; 
+    color: #70757a;
+}
+
+
+.title-brasil{
+    margin-left: 5vh;
+}
+
+.container-other-titles{
+    display: flex; 
+    flex-direction: row; 
+    padding: 10px; 
+    border-top: 1px solid #D3D3D3; 
+    background-color: #f8f8f8;
+}
+
+.container-other-titles-row{
+    width: 100%;
+}
+
+.container-other-titles-row__right-column{
+
+    align-items: center; 
+    align-content: center;
+}
+
+#row__left{
+    text-align: center; 
+    color: #70757a
+}
+
+#row__right{
+    flex-direction: row-reverse; 
+    text-align: center; 
+    color: #70757a
+}
+
+
+
+@media screen and (max-width: 800px) {
 
     .como-funciona-a-pesquisa{
 
         display: none;
 
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+
+    
+    .button{
+        display: none;
+    }
+    
+}
+
+@media only screen and (orientation: landscape) and (max-height: 540px) {
+
+    .button{
+        display: none;
     }
     
 }
