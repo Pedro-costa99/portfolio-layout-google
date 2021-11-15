@@ -13,14 +13,19 @@ html{
 }
 
 html, body{
-    height: 70vh;
+    height: 100vh;
     min-height: 390px;
     
 }
 
-nav ul {
-    margin-top: 10px; 
-    margin-right: 10px;
+nav{
+    height: 10vh;
+}
+
+ul {
+    
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
 .nav-link {
@@ -31,6 +36,7 @@ nav ul {
 
 main{
     height: 80vh;
+    min-height: 390px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,6 +194,12 @@ input:hover{
     flex-direction: row-reverse; 
     text-align: center; 
     color: #70757a
+}
+
+#col__right{
+
+    padding-right: 20px;
+
 }
 
 
