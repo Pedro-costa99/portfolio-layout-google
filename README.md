@@ -1,4 +1,4 @@
-## Este projeto é o layout da página inicial do Google, realizado para Portfólio Front-end.
+## ✨ Este projeto é o layout da página inicial do Google, realizado para Portfólio Front-end.
 - Iniciado em 13/11/2021 às 14:04
 - Versão 1 do Projeto Finalizado em 14/11/21 às 18:22
 
